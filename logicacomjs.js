@@ -59,21 +59,61 @@ else if (Pontuacao>=1001 && Pontuacao<=5000){alert("você é Aprendiz e tem 500X
 else if (Pontuacao>=5001 && Pontuacao<=10000){alert("você é Expert e tem 1000XP")}
 else{ alert ("Você é Mestre e tem 2000XP")}*/
 
-let basico= 25;
+/*let basico= 25;
 let premium=40;
 let ultra=60;
 let assinatura_tipo = prompt("digite seu tipo de assinatura")
 let quantidade_telas = prompt("sua quantidade de telas")
 if (assinatura_tipo==basio) {
     if (quantidade_telas >=1 && quantidade_telas<=2)alert("seu plano terá o valor de R$: "+basico)
-}
+}*/
+/*let daysOfweek= ["Caio","Samuel"];
+console.log(daysOfweek[1]);
+console.log(daysOfweek.length)
+let listdiver= ["Caio",1,2.5,"escola",false]
+console.log(listdiver[3]);
+let nomedoaluno = prompt ("Digite o nome do novo aluno: ");
+daysOfweek.push(nomedoaluno);
+console.log(daysOfweek)*/
 
+/*let daysOfweek= ["Caio","Samuel"];
+let nomedoaluno = prompt ("Digite o nome do novo aluno: ");
+daysOfweek.unshift("caio","lyan","karol","ryan");
+daysOfweek.push(nomedoaluno)
+daysOfweek.unshift("vitoria")
+daysOfweek.shift()
+//daysOfweek.pop()
+daysOfweek.sort()
+console.log(daysOfweek)
+console.log(daysOfweek.indexOf("Samuel"))*/
 
+/*const alunos= ["Ana","Bruno","Carlos","Diana"];
+for(const aluno of alunos){console.log("Olá,"+aluno+"!")};
 
+let number=Number(prompt("Digite o número que deseja somar aos anteriores: "))
+let numberfinal= 0
+while(number!=0){
+ number=Number(prompt("Digite o número que deseja somar aos anteriores: "))
+numberfinal= numberfinal+number
+console.log("número final é:" +numberfinal)}
 
+    for (let i=1;i<11;i++)
+        {console.log(i)};
+    function saudar (){alert("seja bem-vindo ao sistema!!")
+    }
+    saudar()
 
+    function dobrarNumero(numero){return numero *2}
+    let resultado = dobrarNumero (20)
+    alert("O resultado é: "+ resultado)
+    function cumprimentar (nome){
+        alert("Oi,"+nome+" tenha um exelente dia!!")
+}  let nomedouser = prompt ("fale seu nome")
+ cumprimentar (nomedouser)
 
+ function contagregressiva(numero){ 
+    alert(numero)
+    if(numero===0){alert("Chegouu!!") }     contagregressiva(-1)
 
-
-
-
+    } contagregressiva (5)*/
+     
